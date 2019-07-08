@@ -15,7 +15,7 @@
                 <dx:BootstrapGridViewTextColumn FieldName="RtfContent" VisibleIndex="4" Visible="false">
                     <SettingsEditForm Visible="true" ColumnSpan="8" />
                     <EditItemTemplate>
-                        <dx:BootstrapRichEdit Settings-Views-ViewType="Simple" ID="re" runat="server" OnInit="re_Init" ShowConfirmOnLosingChanges="false"></dx:BootstrapRichEdit>
+                        <dx:BootstrapRichEdit Width="500" Settings-Views-ViewType="Simple" ID="re" runat="server" OnInit="re_Init" ShowConfirmOnLosingChanges="false"></dx:BootstrapRichEdit>
                     </EditItemTemplate>
                 </dx:BootstrapGridViewTextColumn>
             </Columns>
